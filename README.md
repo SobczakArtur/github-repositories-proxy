@@ -1,7 +1,7 @@
 # GitHub Repositories Proxy API
 
 A REST API that returns all non-fork GitHub repositories of a given user, including branch names and last commit SHA.
-Implemented as part of a recruitment task, strictly following the provided requirements.<br>
+Designed as a lightweight proxy over the GitHub REST API, following clean architecture and industry best practices.<br>
 <br>
 
 ### Stack
@@ -89,14 +89,14 @@ GET /repositories/{username}<br>
 <br>
 
 ### Running the Application  
-Open a terminal in the root folder of the project (where build.gradle.kts is located) or in IntelliJ, and run:<br>
+Open a terminal in the root folder of the project (where build.gradle.kts is located) or use the built-in terminal in IntelliJ IDEA, then run:<br>
 <br>
 ./gradlew build
 
 ./gradlew bootRun<br>
 <br>
 
-App will be available at:
+The application will be available at:
 
 http://localhost:8080<br>
 <br>
