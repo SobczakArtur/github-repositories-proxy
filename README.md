@@ -1,7 +1,7 @@
 # GitHub Repositories Proxy API
 
 A REST API that returns all non-fork GitHub repositories of a given user, including branch names and last commit SHA.
-Designed as a lightweight proxy over the GitHub REST API, following clean architecture and industry best practices.<br>
+Designed as a lightweight proxy over the GitHub REST API, following clean architecture.<br>
 <br>
 
 ### Stack
@@ -111,7 +111,7 @@ https://www.linkedin.com/in/artur-sobczak-03724a175/
 
 
 <br><br>
-##Example of operations:##
+## Example of operations:
 
 ![](https://github.com/SobczakArtur/github-repositories-proxy/blob/main/images/github_app%20(1).JPG?raw=true)
 <br><br>
