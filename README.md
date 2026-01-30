@@ -48,8 +48,7 @@ GET /repositories/{username}<br>
     
   }
   
-]
-```<br>
+]```<br>
 <br>
 
 ### User Not Found Response (404)
