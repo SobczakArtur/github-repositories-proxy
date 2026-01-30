@@ -1,11 +1,11 @@
 # GitHub Repositories Proxy API
-<br>
+
 
 
 A REST API that returns all non-fork GitHub repositories of a given user, including branch names and last commit SHA.
 
 Implemented as part of a recruitment task, strictly following the provided requirements.
-<br>
+
 
 
 ### Stack
@@ -21,12 +21,12 @@ Implemented as part of a recruitment task, strictly following the provided requi
 **Spring RestClient**
 
 **WireMock (integration tests)**
-<br>
+
 
 
 ### Endpoint
 GET /repositories/{username}
-<br>
+
 
 
 ### Success Response (200)
@@ -53,7 +53,7 @@ GET /repositories/{username}
   }
   
 ]
-<br>
+
 
 
 ### User Not Found Response (404)
@@ -64,7 +64,7 @@ GET /repositories/{username}
   "message": "User not found"
   
 }
-<br>
+
 
 
 ### Architecture
@@ -76,7 +76,7 @@ Service: GithubRepositoryService
 Client: GithubClient
 
 Single package. No DTO/domain split. No security. No pagination. No caching. No resilience. No WebFlux.
-<br>
+
 
 
 ### Testing
@@ -92,7 +92,7 @@ Single package. No DTO/domain split. No security. No pagination. No caching. No 
   - WireMock
 
 Test class: GithubRepositoriesProxyIT
-<br>
+
 
 
 ### Running the Application
@@ -100,7 +100,7 @@ Test class: GithubRepositoriesProxyIT
 ./gradlew build
 
 ./gradlew bootRun
-<br>
+
 
 
 App will be available at:
