@@ -1,26 +1,27 @@
-GitHub Repositories Proxy API
+### GitHub Repositories Proxy API
 
 A REST API that returns all non-fork GitHub repositories of a given user, including branch names and last commit SHA.
-Implemented as part of a recruitment task, strictly following provided requirements.
 
-Stack
+Implemented as part of a recruitment task, strictly following the provided requirements.
 
-Java 25
+# Stack
 
-Spring Boot 4.0.1
+**Java 25**
 
-Gradle (Kotlin DSL)
+**Spring Boot 4.0.1**
 
-Spring MVC
+**Gradle (Kotlin DSL)**
 
-Spring RestClient
+**Spring MVC**
 
-WireMock (integration tests)
+**Spring RestClient**
 
-Endpoint
+**WireMock (integration tests)**
+
+# Endpoint
 GET /repositories/{username}
 
-Success (200)
+# Success Response (200)
 [
   {
     "repositoryName": "backend-repo",
@@ -34,13 +35,13 @@ Success (200)
   }
 ]
 
-User Not Found (404)
+# User Not Found Response (404)
 {
   "status": 404,
   "message": "User not found"
 }
 
-Architecture
+# Architecture
 
 Controller: GithubRepositoryController
 
@@ -48,11 +49,13 @@ Service: GithubRepositoryService
 
 Client: GithubClient
 
-Single package, no DTO/domain split, no security, no pagination, no caching, no resilience, no WebFlux.
+Single package. No DTO/domain split. No security. No pagination. No caching. No resilience. No WebFlux.
 
-Testing
+# Testing
 
-Only integration tests using:
+Only integration tests
+
+Tools used:
 
 @SpringBootTest
 
@@ -62,18 +65,19 @@ WireMock
 
 Test class: GithubRepositoriesProxyIT
 
-Running
+▶️ Running the Application
 ./gradlew build
 ./gradlew bootRun
 
 
-App runs at:
+App will be available at:
 
 http://localhost:8080
 
-Author
+# Author
 
 Artur Sobczak
 📧 sobczak.artur88@gmail.com
 
-🔗 LinkedIn
+# LinkedIn
+https://www.linkedin.com/in/artur-sobczak-03724a175/
