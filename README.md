@@ -22,9 +22,8 @@ Implemented as part of a recruitment task, strictly following the provided requi
 ### Endpoint<br>
 <br>
 
-GET /repositories/{username}
-
-
+GET /repositories/{username}<br>
+<br>
 
 ### Success Response (200)
 [
