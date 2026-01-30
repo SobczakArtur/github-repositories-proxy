@@ -111,7 +111,7 @@ https://www.linkedin.com/in/artur-sobczak-03724a175/
 
 
 <br><br>
-**Example operations:**
+#**Example of operations:**#
 
 ![](https://github.com/SobczakArtur/github-repositories-proxy/blob/main/images/github_app%20(1).JPG?raw=true)
 <br><br>
