@@ -1,7 +1,7 @@
 # GitHub Repositories Proxy API
-<br>
+
 A REST API that returns all non-fork GitHub repositories of a given user, including branch names and last commit SHA.
-Implemented as part of a recruitment task, strictly following the provided requirements.  
+Implemented as part of a recruitment task, strictly following the provided requirements.<br>
 <br>
 
 ### Stack
@@ -16,9 +16,7 @@ Implemented as part of a recruitment task, strictly following the provided requi
 
 **Spring RestClient**
 
-**WireMock (integration tests)**
-
-
+**WireMock (integration tests)**<br>
 
 ### Endpoint
 GET /repositories/{username}
