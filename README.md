@@ -101,7 +101,7 @@ http://localhost:8080<br>
 
 ### Author
 
-Artur Sobczak
+Artur Sobczak  
 sobczak.artur88@gmail.com
 
 ### LinkedIn
