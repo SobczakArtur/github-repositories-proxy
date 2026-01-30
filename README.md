@@ -65,7 +65,8 @@ WireMock
 
 Test class: GithubRepositoriesProxyIT
 
-▶️ Running the Application
+### Running the Application
+---
 ./gradlew build
 ./gradlew bootRun
 
@@ -77,7 +78,7 @@ http://localhost:8080
 ### Author
 
 Artur Sobczak
-📧 sobczak.artur88@gmail.com
+sobczak.artur88@gmail.com
 
 ### LinkedIn
 https://www.linkedin.com/in/artur-sobczak-03724a175/
