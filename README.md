@@ -72,6 +72,7 @@ Test class: GithubRepositoriesProxyIT
 ./gradlew bootRun
 
 
+
 App will be available at:
 
 http://localhost:8080
