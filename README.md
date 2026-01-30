@@ -108,3 +108,14 @@ sobczak.artur88@gmail.com
 
 ### LinkedIn
 https://www.linkedin.com/in/artur-sobczak-03724a175/
+
+
+<br><br>
+**Example operations:**
+
+![](https://github.com/SobczakArtur/github-repositories-proxy/blob/main/images/github_app%20(1).JPG?raw=true)
+<br><br>
+![](https://github.com/SobczakArtur/github-repositories-proxy/blob/main/images/github_app%20(2).JPG?raw=true)
+<br><br>
+![](https://github.com/SobczakArtur/github-repositories-proxy/blob/main/images/github_app%20(3).JPG?raw=true)
+
