@@ -69,9 +69,8 @@ GET /repositories/{username}<br>
 
 - Client: GithubClient
 
-*Single package. No DTO/domain split. No security. No pagination. No caching. No resilience. No WebFlux.*
-
-
+*Single package. No DTO/domain split. No security. No pagination. No caching. No resilience. No WebFlux.*<br>
+<br>
 
 ### Testing
 
