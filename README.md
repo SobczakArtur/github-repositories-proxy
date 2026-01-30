@@ -71,7 +71,7 @@ Test class: GithubRepositoriesProxyIT
 
 ./gradlew bootRun
 
-
+<br>
 
 App will be available at:
 
