@@ -17,6 +17,7 @@ Implemented as part of a recruitment task, strictly following the provided requi
 **Spring RestClient**
 
 **WireMock (integration tests)**<br>
+<br>
 
 ### Endpoint
 GET /repositories/{username}
