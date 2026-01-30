@@ -25,6 +25,7 @@ GET /repositories/{username}<br>
 <br>
 
 ### Success Response (200)
+```json
 [
 
   {
@@ -52,6 +53,7 @@ GET /repositories/{username}<br>
 
 
 ### User Not Found Response (404)
+```json
 {
 
   "status": 404,
