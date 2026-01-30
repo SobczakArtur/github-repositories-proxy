@@ -89,7 +89,7 @@ GET /repositories/{username}<br>
 
 ### Running the Application  
 Open a terminal in the root folder of the project (where build.gradle.kts is located) or in IntelliJ, and run:<br>
-
+<br>
 ./gradlew build
 
 ./gradlew bootRun<br>
