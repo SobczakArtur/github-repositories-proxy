@@ -74,7 +74,7 @@ GET /repositories/{username}<br>
 
 ### Testing
 
-- Only integration tests
+- **Only integration tests**
 
 - Tools used:
 
@@ -82,23 +82,22 @@ GET /repositories/{username}<br>
 
   - MockMvc
 
-  - WireMock
+  - **WireMock**
 
-Test class: GithubRepositoriesProxyIT
-
-
+**Test class:** GithubRepositoriesProxyIT<br>
+<br>
 
 ### Running the Application
 
 ./gradlew build
 
-./gradlew bootRun
-
-
+./gradlew bootRun<br>
+<br>
 
 App will be available at:
 
-http://localhost:8080
+http://localhost:8080<br>
+<br>
 
 ### Author
 
