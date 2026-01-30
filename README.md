@@ -66,8 +66,9 @@ WireMock
 Test class: GithubRepositoriesProxyIT
 
 ### Running the Application
----
+
 ./gradlew build
+
 ./gradlew bootRun
 
 
