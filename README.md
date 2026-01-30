@@ -1,10 +1,10 @@
-### GitHub Repositories Proxy API
+# GitHub Repositories Proxy API
 
 A REST API that returns all non-fork GitHub repositories of a given user, including branch names and last commit SHA.
 
 Implemented as part of a recruitment task, strictly following the provided requirements.
 
-# Stack
+### Stack
 
 **Java 25**
 
@@ -18,10 +18,10 @@ Implemented as part of a recruitment task, strictly following the provided requi
 
 **WireMock (integration tests)**
 
-# Endpoint
+### Endpoint
 GET /repositories/{username}
 
-# Success Response (200)
+### Success Response (200)
 [
   {
     "repositoryName": "backend-repo",
@@ -35,13 +35,13 @@ GET /repositories/{username}
   }
 ]
 
-# User Not Found Response (404)
+### User Not Found Response (404)
 {
   "status": 404,
   "message": "User not found"
 }
 
-# Architecture
+### Architecture
 
 Controller: GithubRepositoryController
 
@@ -51,7 +51,7 @@ Client: GithubClient
 
 Single package. No DTO/domain split. No security. No pagination. No caching. No resilience. No WebFlux.
 
-# Testing
+### Testing
 
 Only integration tests
 
@@ -74,10 +74,10 @@ App will be available at:
 
 http://localhost:8080
 
-# Author
+### Author
 
 Artur Sobczak
 📧 sobczak.artur88@gmail.com
 
-# LinkedIn
+### LinkedIn
 https://www.linkedin.com/in/artur-sobczak-03724a175/
