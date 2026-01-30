@@ -58,19 +58,18 @@ GET /repositories/{username}<br>
   
   "message": "User not found"
   
-}
-
-
+}<br>
+<br>
 
 ### Architecture
 
-Controller: GithubRepositoryController
+- Controller: GithubRepositoryController
 
-Service: GithubRepositoryService
+- Service: GithubRepositoryService
 
-Client: GithubClient
+- Client: GithubClient
 
-Single package. No DTO/domain split. No security. No pagination. No caching. No resilience. No WebFlux.
+*Single package. No DTO/domain split. No security. No pagination. No caching. No resilience. No WebFlux.*
 
 
 
