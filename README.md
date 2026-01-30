@@ -94,7 +94,6 @@ Single package. No DTO/domain split. No security. No pagination. No caching. No 
 Test class: GithubRepositoriesProxyIT
 
 <br>
-
 ### Running the Application
 
 ./gradlew build
