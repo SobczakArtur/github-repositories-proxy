@@ -19,8 +19,7 @@ Implemented as part of a recruitment task, strictly following the provided requi
 **WireMock (integration tests)**<br>
 <br>
 
-### Endpoint<br>
-<br>
+### Endpoint
 
 GET /repositories/{username}<br>
 <br>
