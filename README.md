@@ -48,8 +48,8 @@ GET /repositories/{username}<br>
     
   }
   
-]```<br>
-<br>
+]
+```
 
 ### User Not Found Response (404)
 ```json
@@ -59,8 +59,8 @@ GET /repositories/{username}<br>
   
   "message": "User not found"
   
-}```<br>
-<br>
+}
+```
 
 ### Architecture
 
