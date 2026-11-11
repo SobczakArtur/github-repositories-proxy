@@ -147,3 +147,7 @@ This is a deliberately small project. What it does **not** do (yet):
 ## Author
 
 **Artur Sobczak**: [GitHub](https://github.com/SobczakArtur) · [LinkedIn](https://www.linkedin.com/in/artur-sobczak-03724a175/) · sobczak.artur88@gmail.com
+
+## License
+
+Released under the MIT License. See [LICENSE](LICENSE) for details.
